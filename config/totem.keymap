@@ -24,13 +24,13 @@
 
         layers_selector_L {
             bindings = <&sl 6>;
-            key-positions = <1 2 3>;
+            key-positions = <22 24>;
             layers = <1 0 2 4 3 5>;
         };
 
         layers_selector_R {
             bindings = <&sl 6>;
-            key-positions = <6 7 8>;
+            key-positions = <27 29>;
             layers = <1 0 2 4 3 5>;
         };
 
@@ -476,7 +476,7 @@
            &kp INS        &kp HOME        &kp BSPC      &kp END          &kp DEL          &kp DEL    &kp HOME        &kp BACKSPACE   &kp END          &kp INS
            &kp RIGHT_ALT  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PG_UP        &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp RALT
 &kp LSHFT  &kp RCTRL      &kp ESC         &kp DOWN      &kp ENTER        &kp PAGE_DOWN    &kp PG_DN  &kp ENTER       &kp DOWN_ARROW  &kp ESC          &kp RCTRL  &kp RSHFT
-                                          &mo 3         &none            &mo 4            &mo 3      &none           &mo 4
+                                          &mo 5         &none            &mo 4            &mo 3      &none           &mo 5
             >;
         };
 
@@ -501,8 +501,8 @@
         Mouse {
             bindings = <
        &none  &mmv MOVE_X(-1400)  &mmv MOVE_Y(-1400)  &mmv MOVE_X(1400)  &none                &none              &mmv MOVE_X(-1400)  &mmv MOVE_Y(-1400)  &mmv MOVE_X(1400)  &none
-       &none  &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &msc SCRL_UP         &msc SCRL_UP               &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &none
-&none  &none  &mkp RCLK           &mkp MCLK           &mkp LCLK          &msc SCRL_DOWN       &msc SCRL_DOWN           &mkp LCLK           &mkp MCLK           &mkp RCLK          &none  &none
+       &none  &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &msc SCRL_UP         &msc SCRL_UP       &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &none
+&none  &none  &mkp RCLK           &mkp MCLK           &mkp LCLK          &msc SCRL_DOWN       &msc SCRL_DOWN     &mkp LCLK           &mkp MCLK           &mkp RCLK          &none  &none
                                   &none               &mmv MOVE_DOWN     &mmv MOVE_Y(1400)    &mmv MOVE_Y(1400)  &mmv MOVE_DOWN      &none
             >;
         };
