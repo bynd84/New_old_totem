@@ -508,10 +508,10 @@
 
         layers {
             bindings = <
-           &none  &none  &none  &none  &none        &to 1      &none  &none  &none  &none
-           &none  &to 4      &to 5      &none  &none   &none  &to 4      &to 5      &none  &none
-&none  &none  &to 1      &to 2      &to 3      &none    &none  &to 1      &to 2      &to 3      &none  &none
-                                 &none  &none  &to 0        &to 0   &none  &none
+       &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
+       &none  &to 4  &to 5  &none  &none    &none  &to 4  &to 5  &none  &none
+&none  &none  &to 1  &to 2  &to 3  &none    &none  &to 1  &to 2  &to 3  &none  &none
+                     &none  &none  &to 0    &to 0  &none  &none
             >;
         };
     };
