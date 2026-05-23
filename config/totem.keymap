@@ -474,6 +474,22 @@
         };
     };
 
+    macros {
+        mwsad_to_qwerty: mwsad_to_qwerty {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LEFT_SHIFT) &to 1>;
+            label = "MWSAD_TO_QWERTY";
+        };
+
+        mqwerty_to_wsad: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LEFT_SHIFT) &to 0>;
+            label = "NEW_MACRO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
