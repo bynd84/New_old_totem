@@ -308,6 +308,18 @@
             layers = <0>;
         };
 
+        wsad_sbr_l {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <33 11 22>;
+            layers = <0>;
+        };
+
+        wsad_sbr_r {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <33 12 23>;
+            layers = <0>;
+        };
+
         wsad_sk {
             bindings = <&kp SEMI>;
             key-positions = <13 24 33>;
@@ -398,18 +410,6 @@
             bindings = <&kp KP_ENTER>;
             key-positions = <28 17>;
             layers = <4>;
-        };
-
-        wsad_sbr_l {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <33 11 22>;
-            layers = <0>;
-        };
-
-        wsad_sbr_r {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <33 12 23>;
-            layers = <0>;
         };
 
         //other macroses------------------------------------------------
