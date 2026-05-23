@@ -413,13 +413,13 @@
         };
 
         wsad_to_qwerty {
-            bindings = <&to 1>;
+            bindings = <&mwsad_to_qwerty>;
             key-positions = <22 34>;
             layers = <0>;
         };
 
         qwerty_to_wsad {
-            bindings = <&to 0>;
+            bindings = <&mqwerty_to_wsad>;
             key-positions = <22 34>;
             layers = <1>;
         };
