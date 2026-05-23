@@ -430,6 +430,18 @@
             layers = <1>;
         };
 
+        qwerty_ent {
+            bindings = <&kp ENTER>;
+            key-positions = <28 29>;
+            layers = <1>;
+        };
+
+        qwerty_bs {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <17 18>;
+            layers = <1>;
+        };
+
         //other macroses------------------------------------------------
     };
 
