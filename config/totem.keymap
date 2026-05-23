@@ -486,7 +486,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LEFT_SHIFT) &to 0>;
-            label = "NEW_MACRO";
+            label = "MQWERTY_TO_WSAD";
         };
     };
 
