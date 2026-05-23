@@ -412,6 +412,18 @@
             layers = <4>;
         };
 
+        wsad_to_qwerty {
+            bindings = <&to 1>;
+            key-positions = <22 34>;
+            layers = <0>;
+        };
+
+        qwerty_to_wsad {
+            bindings = <&to 0>;
+            key-positions = <22 34>;
+            layers = <1>;
+        };
+
         //other macroses------------------------------------------------
     };
 
