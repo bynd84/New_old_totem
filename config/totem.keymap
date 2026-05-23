@@ -424,6 +424,12 @@
             layers = <1>;
         };
 
+        wsad_quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <33 11 1>;
+            layers = <0>;
+        };
+
         //other macroses------------------------------------------------
     };
 
