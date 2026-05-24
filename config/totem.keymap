@@ -144,6 +144,24 @@
             layers = <1>;
         };
 
+        qwerty_to_wsad {
+            bindings = <&to 0>;
+            key-positions = <1 3>;
+            layers = <1>;
+        };
+
+        qwerty_rus_to_wsad {
+            bindings = <&mqwerty_to_wsad>;
+            key-positions = <2 4>;
+            layers = <1>;
+        };
+
+        qwerty_alt_shift {
+            bindings = <&kp LA(LEFT_SHIFT)>;
+            key-positions = <1 4>;
+            layers = <1>;
+        };
+
         //wsad macroses-----------------------------------
 
         wsad_5 {
@@ -356,6 +374,18 @@
             layers = <0>;
         };
 
+        wsad_to_rus_qwerty {
+            bindings = <&mwsad_to_qwerty>;
+            key-positions = <2 4>;
+            layers = <0>;
+        };
+
+        wsad_to_qwerty {
+            bindings = <&to 1>;
+            key-positions = <1 3>;
+            layers = <0>;
+        };
+
         //nump macroses------------------------------------------------
 
         numpL_div {
@@ -428,36 +458,6 @@
             bindings = <&kp KP_ENTER>;
             key-positions = <28 17>;
             layers = <4>;
-        };
-
-        wsad_to_rus_qwerty {
-            bindings = <&mwsad_to_qwerty>;
-            key-positions = <2 4>;
-            layers = <0>;
-        };
-
-        qwerty_rus_to_wsad {
-            bindings = <&mqwerty_to_wsad>;
-            key-positions = <2 4>;
-            layers = <1>;
-        };
-
-        wsad_to_qwerty {
-            bindings = <&to 1>;
-            key-positions = <1 3>;
-            layers = <0>;
-        };
-
-        qwerty_to_wsad {
-            bindings = <&to 0>;
-            key-positions = <1 3>;
-            layers = <1>;
-        };
-
-        qwerty_alt_shift {
-            bindings = <&kp LA(LEFT_SHIFT)>;
-            key-positions = <1 4>;
-            layers = <1>;
         };
 
         nav_ins {
