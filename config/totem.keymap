@@ -36,9 +36,9 @@
 
         //qwerty macroses------------------------------------------------
 
-        qwerty_grave {
-            bindings = <&kp GRAVE>;
-            key-positions = <1 0>;
+        qwerty_tab {
+            bindings = <&kp TAB>;
+            key-positions = <14 25>;
             layers = <1>;
         };
 
@@ -110,13 +110,13 @@
 
         qwerty_minus {
             bindings = <&kp MINUS>;
-            key-positions = <14 25>;
+            key-positions = <6 7>;
             layers = <1>;
         };
 
         qwerty_equ {
             bindings = <&kp EQUAL>;
-            key-positions = <26 15>;
+            key-positions = <7 8>;
             layers = <1>;
         };
 
@@ -460,6 +460,11 @@
             layers = <1>;
         };
 
+        nav_ins {
+            bindings = <&kp DEL>;
+            key-positions = <4 14>;
+        };
+
         //other macroses------------------------------------------------
     };
 
@@ -549,7 +554,7 @@
 
         Navigation {
             bindings = <
-           &kp INS        &kp HOME        &kp BSPC      &kp END          &kp DEL          &kp DEL    &kp HOME        &kp BACKSPACE   &kp END          &kp INS
+           &kp TAB        &kp HOME        &kp BSPC      &kp END          &kp DEL          &kp DEL    &kp HOME        &kp BACKSPACE   &kp END          &kp INS
            &kp RIGHT_ALT  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PG_UP        &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp RALT
 &kp LSHFT  &kp RCTRL      &kp ESC         &kp DOWN      &kp ENTER        &kp PAGE_DOWN    &kp PG_DN  &kp ENTER       &kp DOWN_ARROW  &kp ESC          &kp RCTRL  &kp RSHFT
                                           &mo 5         &none            &mo 3            &mo 3      &none           &mo 5
