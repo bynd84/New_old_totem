@@ -462,7 +462,7 @@
 
         nav_ins {
             bindings = <&kp DEL>;
-            key-positions = <4 14>;
+            key-positions = <14 25>;
             layers = <2>;
         };
 
