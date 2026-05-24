@@ -540,7 +540,7 @@
            &kp TAB    &kp N1  &kp N2  &kp N3  &kp N4       &kp N0     &kp N7  &kp N8  &kp N9  &kp BSLH
            &kp LALT   &kp A   &kp W   &kp D   &kp F        &kp MINUS  &kp N4  &kp N5  &kp N6  &kp RALT
 &kp LSHFT  &kp LCTRL  &kp Q   &kp S   &kp E   &kp R        &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp RCTRL  &kp RSHFT
-                              &mo 4   &mo 2   &kp SPACE    &none      &none   &none
+                              &mo 3   &mo 2   &kp SPACE    &none      &none   &none
             >;
         };
 
@@ -549,7 +549,7 @@
            &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y      &kp U      &kp I      &kp O    &kp P
            &kp A  &kp S  &kp D  &kp F  &kp G        &kp H      &kp J      &kp K      &kp L    &kp SEMI
 &kp GRAVE  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
-                         &mo 4  &mo 2  &kp LSHFT    &kp SPACE  &kp LCTRL  &kp LALT
+                         &mo 3  &mo 2  &kp LSHFT    &kp SPACE  &kp LCTRL  &kp LALT
             >;
         };
 
@@ -558,7 +558,7 @@
            &kp TAB        &kp HOME        &kp BSPC      &kp END          &kp DEL          &kp DEL    &kp HOME        &kp BACKSPACE   &kp END          &kp INS
            &kp RIGHT_ALT  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PG_UP        &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp RALT
 &kp LSHFT  &kp RCTRL      &kp ESC         &kp DOWN      &kp ENTER        &kp PAGE_DOWN    &kp PG_DN  &kp ENTER       &kp DOWN_ARROW  &kp ESC          &kp RCTRL  &kp RSHFT
-                                          &mo 3         &none            &mo 5            &mo 3      &none           &mo 5
+                                          &mo 4         &mo 3            &mo 5            &mo 5      &mo 3           &mo 4
             >;
         };
 
@@ -576,7 +576,7 @@
           &kp PRINTSCREEN  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_N0     &kp KP_N0   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PRINTSCREEN
           &kp SCROLLLOCK   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT    &kp KP_DOT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SCROLLLOCK
 &kp CAPS  &kp PAUSE_BREAK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none         &none       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PAUSE_BREAK  &kp CLCK
-                                            &none            &to 3            &none         &none       &none            &none
+                                            &none            &none            &none         &none       &none            &none
             >;
         };
 
