@@ -36,72 +36,6 @@
 
         //qwerty macroses------------------------------------------------
 
-        qwerty_tab {
-            bindings = <&kp TAB>;
-            key-positions = <14 25>;
-            layers = <1>;
-        };
-
-        qwerty_1 {
-            bindings = <&kp LS(NUMBER_1)>;
-            key-positions = <22 11>;
-            layers = <1>;
-        };
-
-        qwerty_2 {
-            bindings = <&kp LS(NUMBER_2)>;
-            key-positions = <1 11>;
-            layers = <1>;
-        };
-
-        qwerty_3 {
-            bindings = <&kp LS(NUMBER_3)>;
-            key-positions = <2 12>;
-            layers = <1>;
-        };
-
-        qwerty_4 {
-            bindings = <&kp LS(NUMBER_4)>;
-            key-positions = <3 13>;
-            layers = <1>;
-        };
-
-        qwerty_5 {
-            bindings = <&kp LS(NUMBER_5)>;
-            key-positions = <4 14>;
-            layers = <1>;
-        };
-
-        qwerty_6 {
-            bindings = <&kp LS(NUMBER_6)>;
-            key-positions = <5 15>;
-            layers = <1>;
-        };
-
-        qwerty_7 {
-            bindings = <&kp LS(NUMBER_7)>;
-            key-positions = <6 16>;
-            layers = <1>;
-        };
-
-        qwerty_8 {
-            bindings = <&kp LS(NUMBER_8)>;
-            key-positions = <7 17>;
-            layers = <1>;
-        };
-
-        qwerty_9 {
-            bindings = <&kp LS(NUMBER_9)>;
-            key-positions = <8 18>;
-            layers = <1>;
-        };
-
-        qwerty_0 {
-            bindings = <&kp LS(NUMBER_0)>;
-            key-positions = <29 18>;
-            layers = <1>;
-        };
-
         qwerty_esc {
             bindings = <&kp ESCAPE>;
             key-positions = <6 7>;
@@ -128,19 +62,13 @@
 
         qwerty_to_wsad {
             bindings = <&to 0>;
-            key-positions = <1 3>;
+            key-positions = <1 2>;
             layers = <1>;
         };
 
         qwerty_rus_to_wsad {
             bindings = <&mqwerty_to_wsad>;
-            key-positions = <2 4>;
-            layers = <1>;
-        };
-
-        qwerty_alt_shift {
-            bindings = <&kp LA(LEFT_SHIFT)>;
-            key-positions = <1 4>;
+            key-positions = <2 3>;
             layers = <1>;
         };
 
