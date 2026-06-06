@@ -484,6 +484,54 @@
             layers = <1>;
         };
 
+        qwerty_d0 {
+            bindings = <&kp NUMBER_0>;
+            key-positions = <33 4>;
+            layers = <1>;
+        };
+
+        qwerty_s0 {
+            bindings = <&kp LS(NUMBER_0)>;
+            key-positions = <36 5>;
+            layers = <1>;
+        };
+
+        qwerty_dm {
+            bindings = <&kp MINUS>;
+            key-positions = <33 14>;
+            layers = <1>;
+        };
+
+        qwerty_sm {
+            bindings = <&kp LS(MINUS)>;
+            key-positions = <36 15>;
+            layers = <1>;
+        };
+
+        qwerty_dp {
+            bindings = <&kp EQUAL>;
+            key-positions = <33 25>;
+            layers = <1>;
+        };
+
+        qwerty_sp {
+            bindings = <&kp LS(EQUAL)>;
+            key-positions = <36 26>;
+            layers = <1>;
+        };
+
+        qwerty_dsl {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <33 0>;
+            layers = <1>;
+        };
+
+        qwerty_ssl {
+            bindings = <&kp LS(BACKSLASH)>;
+            key-positions = <36 9>;
+            layers = <1>;
+        };
+
         //other macroses------------------------------------------------
     };
 
@@ -567,7 +615,7 @@
                     &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y      &kp U      &kp I      &kp O    &kp P
                     &kp A  &kp S  &kp D  &kp F  &kp G        &kp H      &kp J      &kp K      &kp L    &kp SEMI
 &mt LEFT_ALT GRAVE  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
-                                  &mo 3  &mo 2  &kp LSHFT    &kp SPACE  &kp LCTRL  &mo 5
+                                  &mo 3  &mo 2  &kp LSHFT    &kp SPACE  &kp LCTRL  &mo 4
             >;
         };
 
