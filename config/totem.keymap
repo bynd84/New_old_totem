@@ -451,31 +451,49 @@
         qwerty_1 {
             bindings = <&kp NUMBER_1>;
             key-positions = <33 22>;
+            layers = <1>;
         };
 
         qwerty_s1 {
             bindings = <&kp LS(NUMBER_1)>;
             key-positions = <36 27>;
+            layers = <1>;
         };
 
         qwerty_2 {
             bindings = <&kp NUMBER_2>;
             key-positions = <33 23>;
+            layers = <1>;
         };
 
         qwerty_s2 {
             bindings = <&kp LS(NUMBER_2)>;
             key-positions = <36 28>;
+            layers = <1>;
         };
 
         qwerty_3 {
             bindings = <&kp NUMBER_3>;
             key-positions = <33 24>;
+            layers = <1>;
         };
 
         qwerty_s3 {
             bindings = <&kp LS(NUMBER_3)>;
-            key-positions = <36 28>;
+            key-positions = <36 29>;
+            layers = <1>;
+        };
+
+        qwerty_4 {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <33 11>;
+            layers = <1>;
+        };
+
+        qwerty_4 {
+            bindings = <&kp LS(NUMBER_4)>;
+            key-positions = <36 18>;
+            layers = <1>;
         };
 
         //other macroses------------------------------------------------
