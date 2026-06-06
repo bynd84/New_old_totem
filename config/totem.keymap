@@ -641,7 +641,7 @@
             bindings = <
           &kp PRINTSCREEN  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_N0     &kp KP_N0   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PRINTSCREEN
           &kp SCROLLLOCK   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT    &kp KP_DOT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SCROLLLOCK
-&kp CAPS  &kp PAUSE_BREAK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none         &none       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PAUSE_BREAK  &kp CLCK
+&kp CAPS  &kp PAUSE_BREAK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp TAB       &kp TAB     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PAUSE_BREAK  &kp CLCK
                                             &none            &none            &none         &none       &none            &none
             >;
         };
