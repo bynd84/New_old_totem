@@ -448,7 +448,7 @@
             layers = <2>;
         };
 
-        qwerty_1 {
+        qwerty_d1 {
             bindings = <&kp NUMBER_1>;
             key-positions = <33 22>;
             layers = <1>;
@@ -460,7 +460,7 @@
             layers = <1>;
         };
 
-        qwerty_2 {
+        qwerty_d2 {
             bindings = <&kp NUMBER_2>;
             key-positions = <33 23>;
             layers = <1>;
@@ -472,7 +472,7 @@
             layers = <1>;
         };
 
-        qwerty_3 {
+        qwerty_d3 {
             bindings = <&kp NUMBER_3>;
             key-positions = <33 24>;
             layers = <1>;
@@ -484,7 +484,7 @@
             layers = <1>;
         };
 
-        qwerty_4 {
+        qwerty_d4 {
             bindings = <&kp NUMBER_4>;
             key-positions = <33 11>;
             layers = <1>;
