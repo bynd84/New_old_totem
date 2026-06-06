@@ -448,6 +448,42 @@
             layers = <1>;
         };
 
+        qwerty_d7 {
+            bindings = <&kp N7>;
+            key-positions = <33 1>;
+            layers = <1>;
+        };
+
+        qwerty_s7 {
+            bindings = <&kp LS(N7)>;
+            key-positions = <36 6>;
+            layers = <1>;
+        };
+
+        qwerty_d8 {
+            bindings = <&kp NUMBER_8>;
+            key-positions = <33 2>;
+            layers = <1>;
+        };
+
+        qwerty_s8 {
+            bindings = <&kp LS(NUMBER_8)>;
+            key-positions = <36 7>;
+            layers = <1>;
+        };
+
+        qwerty_d9 {
+            bindings = <&kp NUMBER_9>;
+            key-positions = <33 3>;
+            layers = <1>;
+        };
+
+        qwerty_s9 {
+            bindings = <&kp LS(NUMBER_9)>;
+            key-positions = <36 8>;
+            layers = <1>;
+        };
+
         //other macroses------------------------------------------------
     };
 
