@@ -42,68 +42,62 @@
             layers = <1>;
         };
 
-        qwerty_bslsh {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <9 8>;
-            layers = <1>;
-        };
-
         qwerty_1 {
-            bindings = <&kp NUMBER_1>;
+            bindings = <&kp LS(NUMBER_1)>;
             key-positions = <22 11>;
             layers = <1>;
         };
 
         qwerty_2 {
-            bindings = <&kp NUMBER_2>;
+            bindings = <&kp LS(NUMBER_2)>;
             key-positions = <1 11>;
             layers = <1>;
         };
 
         qwerty_3 {
-            bindings = <&kp NUMBER_3>;
+            bindings = <&kp LS(NUMBER_3)>;
             key-positions = <2 12>;
             layers = <1>;
         };
 
         qwerty_4 {
-            bindings = <&kp NUMBER_4>;
+            bindings = <&kp LS(NUMBER_4)>;
             key-positions = <3 13>;
             layers = <1>;
         };
 
         qwerty_5 {
-            bindings = <&kp NUMBER_5>;
+            bindings = <&kp LS(NUMBER_5)>;
             key-positions = <4 14>;
             layers = <1>;
         };
 
         qwerty_6 {
-            bindings = <&kp NUMBER_6>;
+            bindings = <&kp LS(NUMBER_6)>;
             key-positions = <5 15>;
             layers = <1>;
         };
 
         qwerty_7 {
-            bindings = <&kp NUMBER_7>;
+            bindings = <&kp LS(NUMBER_7)>;
             key-positions = <6 16>;
             layers = <1>;
         };
 
         qwerty_8 {
-            bindings = <&kp NUMBER_8>;
+            bindings = <&kp LS(NUMBER_8)>;
             key-positions = <7 17>;
             layers = <1>;
         };
 
         qwerty_9 {
-            bindings = <&kp NUMBER_9>;
+            bindings = <&kp LS(NUMBER_9)>;
             key-positions = <8 18>;
             layers = <1>;
         };
 
         qwerty_0 {
-            bindings = <&kp NUMBER_0>;
+            bindings = <&kp LS(NUMBER_0)>;
             key-positions = <29 18>;
             layers = <1>;
         };
@@ -129,18 +123,6 @@
         qwerty_br_R {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <28 17>;
-            layers = <1>;
-        };
-
-        qwerty_ent {
-            bindings = <&kp ENTER>;
-            key-positions = <28 29>;
-            layers = <1>;
-        };
-
-        qwerty_bs {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <17 18>;
             layers = <1>;
         };
 
@@ -546,10 +528,10 @@
 
         qwerty {
             bindings = <
-                    &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P
-                    &kp A  &kp S  &kp D  &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp SEMI
-&mt LEFT_ALT GRAVE  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
-                                  &mo 3  &mo 2  &kp LSHFT    &kp SPACE  &mo 0  &kp LCTRL
+                    &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y      &kp U      &kp I            &kp O    &kp P
+                    &kp A  &kp S  &kp D  &kp F  &kp G        &kp H      &kp J      &kp K            &kp L    &kp SEMI
+&mt LEFT_ALT GRAVE  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N      &kp M      &kp COMMA        &kp DOT  &kp FSLH  &kp APOS
+                                  &mo 3  &mo 2  &kp LSHFT    &kp SPACE  &kp LCTRL  &hl_mod 0 LC(C)
             >;
         };
 
