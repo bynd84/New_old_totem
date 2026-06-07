@@ -376,158 +376,80 @@
             layers = <2>;
         };
 
-        qwerty_d1 {
-            bindings = <&kp NUMBER_1>;
-            key-positions = <33 22>;
-            layers = <1>;
-        };
-
         qwerty_s1 {
-            bindings = <&kp LS(NUMBER_1)>;
+            bindings = <&kp NUMBER_1>;
             key-positions = <36 27>;
             layers = <1>;
         };
 
-        qwerty_d2 {
-            bindings = <&kp NUMBER_2>;
-            key-positions = <33 23>;
-            layers = <1>;
-        };
-
         qwerty_s2 {
-            bindings = <&kp LS(NUMBER_2)>;
+            bindings = <&kp NUMBER_2>;
             key-positions = <36 28>;
             layers = <1>;
         };
 
-        qwerty_d3 {
-            bindings = <&kp NUMBER_3>;
-            key-positions = <33 24>;
-            layers = <1>;
-        };
-
         qwerty_s3 {
-            bindings = <&kp LS(NUMBER_3)>;
+            bindings = <&kp NUMBER_3>;
             key-positions = <36 29>;
             layers = <1>;
         };
 
-        qwerty_d4 {
-            bindings = <&kp NUMBER_4>;
-            key-positions = <33 11>;
-            layers = <1>;
-        };
-
         qwerty_s4 {
-            bindings = <&kp LS(NUMBER_4)>;
+            bindings = <&kp NUMBER_4>;
             key-positions = <36 16>;
             layers = <1>;
         };
 
-        qwerty_d5 {
-            bindings = <&kp N5>;
-            key-positions = <33 12>;
-            layers = <1>;
-        };
-
         qwerty_s5 {
-            bindings = <&kp LS(N5)>;
+            bindings = <&kp N5>;
             key-positions = <36 17>;
             layers = <1>;
         };
 
-        qwerty_d6 {
-            bindings = <&kp NUMBER_6>;
-            key-positions = <33 13>;
-            layers = <1>;
-        };
-
         qwerty_s6 {
-            bindings = <&kp LS(NUMBER_6)>;
+            bindings = <&kp NUMBER_6>;
             key-positions = <36 18>;
             layers = <1>;
         };
 
-        qwerty_d7 {
-            bindings = <&kp N7>;
-            key-positions = <33 1>;
-            layers = <1>;
-        };
-
         qwerty_s7 {
-            bindings = <&kp LS(N7)>;
+            bindings = <&kp N7>;
             key-positions = <36 6>;
             layers = <1>;
         };
 
-        qwerty_d8 {
-            bindings = <&kp NUMBER_8>;
-            key-positions = <33 2>;
-            layers = <1>;
-        };
-
         qwerty_s8 {
-            bindings = <&kp LS(NUMBER_8)>;
+            bindings = <&kp NUMBER_8>;
             key-positions = <36 7>;
             layers = <1>;
         };
 
-        qwerty_d9 {
-            bindings = <&kp NUMBER_9>;
-            key-positions = <33 3>;
-            layers = <1>;
-        };
-
         qwerty_s9 {
-            bindings = <&kp LS(NUMBER_9)>;
+            bindings = <&kp NUMBER_9>;
             key-positions = <36 8>;
             layers = <1>;
         };
 
-        qwerty_d0 {
-            bindings = <&kp NUMBER_0>;
-            key-positions = <33 4>;
-            layers = <1>;
-        };
-
         qwerty_s0 {
-            bindings = <&kp LS(NUMBER_0)>;
+            bindings = <&kp NUMBER_0>;
             key-positions = <36 5>;
             layers = <1>;
         };
 
-        qwerty_dm {
-            bindings = <&kp MINUS>;
-            key-positions = <33 14>;
-            layers = <1>;
-        };
-
         qwerty_sm {
-            bindings = <&kp LS(MINUS)>;
+            bindings = <&kp MINUS>;
             key-positions = <36 15>;
             layers = <1>;
         };
 
-        qwerty_dp {
-            bindings = <&kp EQUAL>;
-            key-positions = <33 25>;
-            layers = <1>;
-        };
-
         qwerty_sp {
-            bindings = <&kp LS(EQUAL)>;
+            bindings = <&kp EQUAL>;
             key-positions = <36 26>;
             layers = <1>;
         };
 
-        qwerty_dsl {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <33 0>;
-            layers = <1>;
-        };
-
         qwerty_ssl {
-            bindings = <&kp LS(BACKSLASH)>;
+            bindings = <&kp BACKSLASH>;
             key-positions = <36 9>;
             layers = <1>;
         };
