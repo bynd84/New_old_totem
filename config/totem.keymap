@@ -570,10 +570,10 @@
 
         Mouse {
             bindings = <
-       &none  &mmv MOVE_X(-1400)  &mmv MOVE_Y(-1400)  &mmv MOVE_X(1400)  &none                &none              &mmv MOVE_X(-200)  &mmv MOVE_Y(-200)  &mmv MOVE_X(200)  &none
-       &none  &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &msc SCRL_UP         &msc SCRL_UP       &mmv MOVE_X(-900)      &mmv MOVE_Y(-900)        &mmv MOVE_X(900)    &none
-&none  &none  &mkp RCLK           &mkp MCLK           &mkp LCLK          &msc SCRL_DOWN       &msc SCRL_DOWN     &mkp MCLK           &mmv MOVE_Y(900)           &mkp RCLK          &none  &none
-                                  &none               &mmv MOVE_DOWN     &mmv MOVE_Y(1400)    &mkp LCLK  &mmv MOVE_Y(200)      &none
+       &none  &mmv MOVE_X(-1400)  &mmv MOVE_Y(-1400)  &mmv MOVE_X(1400)  &none                &none           &mmv MOVE_X(-200)  &mmv MOVE_Y(-200)  &mmv MOVE_X(200)  &none
+       &none  &mmv MOVE_LEFT      &mmv MOVE_X(-100)   &mmv MOVE_RIGHT    &msc SCRL_UP         &msc SCRL_UP    &mmv MOVE_X(-900)  &mmv MOVE_Y(-900)  &mmv MOVE_X(900)  &none
+&none  &none  &mkp RCLK           &mkp MCLK           &mkp LCLK          &msc SCRL_DOWN       &msc SCRL_DOWN  &mkp MCLK          &mmv MOVE_Y(900)   &mkp RCLK         &none  &none
+                                  &none               &mmv MOVE_DOWN     &mmv MOVE_Y(1400)    &mkp LCLK       &mmv MOVE_Y(200)   &none
             >;
         };
 
