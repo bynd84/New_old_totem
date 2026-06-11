@@ -571,18 +571,18 @@
         Mouse {
             bindings = <
        &none  &none              &none              &none             &none             &none           &none              &none              &none             &none
-       &none  &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &msc SCRL_UP      &msc SCRL_UP    &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &none
-&none  &none  &mkp RCLK          &mmv MOVE_Y(600)   &mkp MB3          &msc SCRL_DOWN    &msc SCRL_DOWN  &mkp LCLK          &mmv MOVE_Y(600)   &mkp RCLK         &none  &none
+       &none  &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &msc SCRL_UP      &msc SCRL_UP    &mmv MOVE_X(-500)  &mmv MOVE_Y(-500)  &mmv MOVE_X(500)  &none
+&none  &none  &mkp RCLK          &mmv MOVE_Y(600)   &mkp MB3          &msc SCRL_DOWN    &msc SCRL_DOWN  &mkp LCLK          &mmv MOVE_Y(500)   &mkp RCLK         &none  &none
                                  &none              &mo 6             &mkp LCLK         &mkp LCLK       &mo 6              &none
             >;
         };
 
         mouse2 {
             bindings = <
-       &none  &none              &none              &none  &none        &none      &none  &none              &none  &none
-       &none  &mmv MOVE_X(-300)  &mmv MOVE_Y(-300)  &none  &none        &none      &none  &mmv MOVE_Y(-300)  &none  &none
-&none  &none  &none              &mmv MOVE_Y(300)   &none  &none        &none      &none  &mmv MOVE_Y(300)   &none  &none  &none
-                                 &none              &none  &mkp LCLK    &mkp LCLK  &none  &none
+       &none  &none              &none              &none             &none             &none           &none              &none              &none             &none
+       &none  &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &msc SCRL_UP      &msc SCRL_UP    &mmv MOVE_X(-1000)  &mmv MOVE_Y(-1000)  &mmv MOVE_X(1000)  &none
+&none  &none  &mkp RCLK          &mmv MOVE_Y(600)   &mkp MB3          &msc SCRL_DOWN    &msc SCRL_DOWN  &mkp LCLK          &mmv MOVE_Y(1000)   &mkp RCLK         &none  &none
+                                 &none             &none             &mkp LCLK         &mkp LCLK       &none              &none
             >;
         };
 
