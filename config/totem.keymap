@@ -580,9 +580,9 @@
             wait-ms = <40>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_X(600)>,
+                <&mmv MOVE_X(6000)>,
                 <&macro_release>,
-                <&mmv MOVE_X(600)>;
+                <&mmv MOVE_X(6000)>;
         };
     };
 
