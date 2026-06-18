@@ -572,6 +572,14 @@
             bindings = <&kp LA(LEFT_SHIFT) &to 0>;
             label = "MQWERTY_TO_WSAD";
         };
+
+        m_ljmp_right: m_ljmp_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mmv MOVE_X(600)>;
+            label = "M_LJMP_RIGHT";
+            tap-ms = <100>;
+        };
     };
 
     keymap {
