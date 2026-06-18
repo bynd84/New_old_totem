@@ -36,6 +36,78 @@
 
         //qwerty macroses------------------------------------------------
 
+qwerty_1 {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <22 11>;
+            layers = <1>;
+        };
+
+        qwerty_2 {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <1 11>;
+            layers = <1>;
+        };
+
+        qwerty_3 {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <2 12>;
+            layers = <1>;
+        };
+
+        qwerty_4 {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <3 13>;
+            layers = <1>;
+        };
+
+        qwerty_5 {
+            bindings = <&kp NUMBER_5>;
+            key-positions = <4 14>;
+            layers = <1>;
+        };
+
+        qwerty_6 {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <5 15>;
+            layers = <1>;
+        };
+
+        qwerty_7 {
+            bindings = <&kp NUMBER_7>;
+            key-positions = <6 16>;
+            layers = <1>;
+        };
+
+        qwerty_8 {
+            bindings = <&kp NUMBER_8>;
+            key-positions = <7 17>;
+            layers = <1>;
+        };
+
+        qwerty_9 {
+            bindings = <&kp NUMBER_9>;
+            key-positions = <8 18>;
+            layers = <1>;
+        };
+
+        qwerty_0 {
+            bindings = <&kp NUMBER_0>;
+            key-positions = <29 18>;
+            layers = <1>;
+        };
+
+        qwerty_minus {
+            bindings = <&kp MINUS>;
+            key-positions = <6 7>;
+            layers = <1>;
+        };
+
+        qwerty_equ {
+            bindings = <&kp EQUAL>;
+            key-positions = <7 8>;
+            layers = <1>;
+        };
+
         qwerty_br_L {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <27 16>;
