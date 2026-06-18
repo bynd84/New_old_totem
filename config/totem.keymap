@@ -573,7 +573,7 @@
             label = "MQWERTY_TO_WSAD";
         };
 
-        m_ljmp_right: m_ljmp_up {
+        m_ljmp_up: m_ljmp_up {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <20>;
@@ -585,7 +585,7 @@
                 <&mmv MOVE_Y(6000)>;
         };
 
-        m_ljmp_right: m_ljmp_down {
+        m_ljmp_down: m_ljmp_down {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <20>;
@@ -609,7 +609,7 @@
                 <&mmv MOVE_X(6000)>;
         };
 
-        m_ljmp_right: m_ljmp_left {
+        m_ljmp_left: m_ljmp_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <20>;
