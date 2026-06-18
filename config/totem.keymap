@@ -120,15 +120,9 @@
             layers = <1>;
         };
 
-        qwerty_to_wsad {
-            bindings = <&to 0>;
-            key-positions = <1 3>;
-            layers = <1>;
-        };
-
         qwerty_rus_to_wsad {
             bindings = <&mqwerty_to_wsad>;
-            key-positions = <2 4>;
+            key-positions = <1 3>;
             layers = <1>;
         };
 
