@@ -576,9 +576,12 @@
         m_ljmp_right: m_ljmp_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_X(600)>;
-            label = "M_LJMP_RIGHT";
-            tap-ms = <100>;
+            tap-ms = <20>;
+            wait-ms = <40>; // Пауза между шагами при удержании кнопки
+            bindings
+                = <&macro_press &mmv MOVE_X(600)>
+                , <&macro_release &mmv MOVE_X(600)>
+                ;
         };
     };
 
