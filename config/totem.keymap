@@ -2,6 +2,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 200    // default: 10
 
 &mmv {
@@ -34,18 +35,6 @@
         };
 
         //qwerty macroses------------------------------------------------
-
-        qwerty_esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <6 7>;
-            layers = <1>;
-        };
-
-        qwerty_ent {
-            bindings = <&kp ENTER>;
-            key-positions = <7 8>;
-            layers = <1>;
-        };
 
         qwerty_br_L {
             bindings = <&kp LEFT_BRACKET>;
