@@ -672,10 +672,10 @@
 
         Mouse {
             bindings = <
-       &mmv MOVE_X(-2000)  &mmv MOVE_X(-50)   &mmv MOVE_Y(-50)   &mmv MOVE_X(50)   &mmv MOVE_X(2000)    &mmv MOVE_X(-2000)  &m_ljmp_left   &m_ljmp_up   &m_ljmp_right  &none
-       &none               &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &msc SCRL_UP         &msc SCRL_DOWN      &mkp LCLK          &mkp MCLK  &m_ljmp_right    &none
-&none  &none               &mkp RCLK          &mkp MCLK          &mkp LCLK         &msc SCRL_DOWN       &none       &none          &none            &mkp RCLK        &none              &none
-                                              &none              &mmv MOVE_Y(600)  &mmv MOVE_Y(50)      &m_ljmp_down     &mkp LCLK   &none
+       &mmv MOVE_X(-2000)  &mmv MOVE_X(-50)   &mmv MOVE_Y(-50)   &mmv MOVE_X(50)   &mmv MOVE_X(2000)    &none         &m_ljmp_left  &m_ljmp_up  &m_ljmp_right  &none
+       &none               &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &msc SCRL_UP         &none         &mkp LCLK     &mkp MCLK   &mkp RCLK      &none
+&none  &none               &mkp RCLK          &mkp MCLK          &mkp LCLK         &msc SCRL_DOWN       &none         &none         &none       &none          &none  &none
+                                              &none              &mmv MOVE_Y(600)  &mmv MOVE_Y(50)      &m_ljmp_down  &mkp LCLK     &mkp MB3
             >;
         };
 
