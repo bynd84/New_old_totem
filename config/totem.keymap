@@ -578,10 +578,11 @@
             #binding-cells = <0>;
             tap-ms = <20>;
             wait-ms = <40>; // Пауза между шагами при удержании кнопки
-            bindings
-                = <&macro_press &mmv MOVE_X(600)>
-                , <&macro_release &mmv MOVE_X(600)>
-                ;
+            bindings =
+                <&macro_press>,
+                <&mmv MOVE_X(600)>,
+                <&macro_release>,
+                <&mmv MOVE_X(600)>;
         };
     };
 
@@ -635,9 +636,9 @@
 
         Mouse {
             bindings = <
-       &mmv MOVE_X(-2000)  &mmv MOVE_X(-50)   &mmv MOVE_Y(-50)   &mmv MOVE_X(50)   &mmv MOVE_X(2000)    &mmv MOVE_X(-2000)  &mmv MOVE_X(-50)   &mmv MOVE_Y(-50)   &mmv MOVE_X(50)   &mmv MOVE_X(2000)
-       &none               &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &msc SCRL_UP         &msc SCRL_UP        &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &none
-&none  &none               &mkp RCLK          &mkp MCLK          &mkp LCLK         &msc SCRL_DOWN       &msc SCRL_DOWN      &mkp LCLK          &mkp MCLK          &mkp RCLK         &none              &none
+       &mmv MOVE_X(-2000)  &mmv MOVE_X(-50)   &mmv MOVE_Y(-50)   &mmv MOVE_X(50)   &mmv MOVE_X(2000)    &mmv MOVE_X(-2000)  &mmv MOVE_X(-50)   &mmv MOVE_Y(-50)   &mmv MOVE_X(50)  &mmv MOVE_X(2000)
+       &none               &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &msc SCRL_UP         &msc SCRL_UP        &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &m_ljmp_right    &none
+&none  &none               &mkp RCLK          &mkp MCLK          &mkp LCLK         &msc SCRL_DOWN       &msc SCRL_DOWN      &mkp LCLK          &mkp MCLK          &mkp RCLK        &none              &none
                                               &none              &mmv MOVE_Y(600)  &mmv MOVE_Y(50)      &mmv MOVE_Y(50)     &mmv MOVE_Y(600)   &none
             >;
         };
