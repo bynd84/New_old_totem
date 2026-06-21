@@ -574,9 +574,9 @@
             wait-ms = <83>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_Y(-16000)>,
+                <&mmv MOVE_Y(-14000)>,
                 <&macro_release>,
-                <&mmv MOVE_Y(-16000)>;
+                <&mmv MOVE_Y(-14000)>;
         };
 
         m_ljmp_down: m_ljmp_down {
@@ -586,9 +586,9 @@
             wait-ms = <83>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_Y(16000)>,
+                <&mmv MOVE_Y(14000)>,
                 <&macro_release>,
-                <&mmv MOVE_Y(16000)>;
+                <&mmv MOVE_Y(14000)>;
         };
 
         m_ljmp_right: m_ljmp_right {
@@ -598,9 +598,9 @@
             wait-ms = <83>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_X(29000)>,
+                <&mmv MOVE_X(25000)>,
                 <&macro_release>,
-                <&mmv MOVE_X(29000)>;
+                <&mmv MOVE_X(25000)>;
         };
 
         m_ljmp_left: m_ljmp_left {
@@ -610,9 +610,9 @@
             wait-ms = <83>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_X(-29000)>,
+                <&mmv MOVE_X(-25000)>,
                 <&macro_release>,
-                <&mmv MOVE_X(-29000)>;
+                <&mmv MOVE_X(-25000)>;
         };
     };
 
