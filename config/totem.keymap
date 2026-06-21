@@ -6,7 +6,7 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 200    // default: 10
 
 &mmv {
-    time-to-max-speed-ms = <20>;
+    time-to-max-speed-ms = <25>;
     acceleration-exponent = <2>;
 };
 
