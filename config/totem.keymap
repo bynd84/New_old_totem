@@ -669,16 +669,16 @@
        &none  &m_ljmp_left       &m_ljmp_up         &m_ljmp_right     &none             &none      &m_ljmp_left    &m_ljmp_up    &m_ljmp_right  &none
        &none  &mmv MOVE_X(-500)  &mmv MOVE_Y(-500)  &mmv MOVE_X(500)  &msc SCRL_UP      &none      &msc SCRL_DOWN  &msc SCRL_UP  &mkp RCLK      &none
 &none  &none  &mkp RCLK          &mmv MOVE_Y(500)   &mkp LCLK         &msc SCRL_DOWN    &none      &none           &none         &none          &none  &none
-                                 &mo 6              &m_ljmp_down      &mkp LCLK         &mkp LCLK  &mkp LCLK       &mkp MCLK
+                                 &mo 6              &m_ljmp_down      &mkp MCLK         &mkp LCLK  &mkp LCLK       &mkp MCLK
             >;
         };
 
         Mouse2 {
             bindings = <
-       &none  &none       &none         &none     &none             &none      &m_ljmp_left    &m_ljmp_up    &m_ljmp_right  &none
-       &none  &mmv MOVE_X(-40)  &mmv MOVE_Y(-40)  &mmv MOVE_X(40)  &none      &none      &msc SCRL_DOWN  &msc SCRL_UP  &mkp RCLK      &none
-&none  &none  &mkp RCLK          &mmv MOVE_Y(40)   &mkp LCLK         &none    &none      &none           &none         &none          &none  &none
-                                 &none              &none      &none         &mkp LCLK  &mkp LCLK       &mkp MCLK
+       &none  &none             &none             &none            &none    &none      &m_ljmp_left    &m_ljmp_up    &m_ljmp_right  &none
+       &none  &mmv MOVE_X(-40)  &mmv MOVE_Y(-40)  &mmv MOVE_X(40)  &none    &none      &msc SCRL_DOWN  &msc SCRL_UP  &mkp RCLK      &none
+&none  &none  &mkp RCLK         &mmv MOVE_Y(40)   &mkp LCLK        &none    &none      &none           &none         &none          &none  &none
+                                &none             &none            &none    &mkp LCLK  &mkp LCLK       &mkp MCLK
             >;
         };
 
