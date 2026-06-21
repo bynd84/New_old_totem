@@ -668,7 +668,7 @@
             bindings = <
            &none  &m_ljmp_left       &m_ljmp_up         &m_ljmp_right     &none             &none           &m_ljmp_left       &m_ljmp_up         &m_ljmp_right     &none
            &none  &mmv MOVE_X(-500)  &mmv MOVE_Y(-500)  &mmv MOVE_X(500)  &msc SCRL_UP      &msc SCRL_UP    &mmv MOVE_X(-300)  &mmv MOVE_Y(-300)  &mmv MOVE_X(300)  &none
-&mkp LCLK  &none  &mkp RCLK          &mmv MOVE_Y(500)   &mkp MCLK         &msc SCRL_DOWN    &msc SCRL_DOWN  &mkp MCLK          &mmv MOVE_Y(300)   &mkp RCLK         &none  &none
+&mkp LCLK  &none  &mkp RCLK          &mmv MOVE_Y(500)   &mkp MCLK         &msc SCRL_DOWN    &msc SCRL_DOWN  &mkp MCLK          &mmv MOVE_Y(300)   &mkp RCLK         &none  &mkp LCLK
                                      &mo 6              &m_ljmp_down      &mkp LCLK         &mkp LCLK       &m_ljmp_down       &mkp MCLK
             >;
         };
