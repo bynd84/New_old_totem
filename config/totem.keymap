@@ -6,7 +6,7 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 200    // default: 10
 
 &mmv {
-    time-to-max-speed-ms = <25>;
+    time-to-max-speed-ms = <35>;
     acceleration-exponent = <2>;
 };
 
@@ -574,9 +574,9 @@
             wait-ms = <40>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_Y(-12000)>,
+                <&mmv MOVE_Y(-20000)>,
                 <&macro_release>,
-                <&mmv MOVE_Y(-12000)>;
+                <&mmv MOVE_Y(-20000)>;
         };
 
         m_ljmp_down: m_ljmp_down {
@@ -586,9 +586,9 @@
             wait-ms = <40>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_Y(12000)>,
+                <&mmv MOVE_Y(20000)>,
                 <&macro_release>,
-                <&mmv MOVE_Y(12000)>;
+                <&mmv MOVE_Y(20000)>;
         };
 
         m_ljmp_right: m_ljmp_right {
@@ -598,9 +598,9 @@
             wait-ms = <40>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_X(22000)>,
+                <&mmv MOVE_X(30000)>,
                 <&macro_release>,
-                <&mmv MOVE_X(22000)>;
+                <&mmv MOVE_X(30000)>;
         };
 
         m_ljmp_left: m_ljmp_left {
@@ -610,9 +610,9 @@
             wait-ms = <40>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_X(-22000)>,
+                <&mmv MOVE_X(-30000)>,
                 <&macro_release>,
-                <&mmv MOVE_X(-22000)>;
+                <&mmv MOVE_X(-30000)>;
         };
     };
 
@@ -667,9 +667,9 @@
         Mouse {
             bindings = <
            &none  &m_ljmp_left       &m_ljmp_up         &m_ljmp_right     &none             &none           &none              &none         &none          &none
-           &none  &mmv MOVE_X(-500)  &mmv MOVE_Y(-500)  &mmv MOVE_X(500)  &msc SCRL_UP      &msc SCRL_UP    &m_ljmp_left       &m_ljmp_up    &m_ljmp_right  &none
-&mkp LCLK  &none  &mkp RCLK          &mmv MOVE_Y(500)   &mkp MCLK         &msc SCRL_DOWN    &msc SCRL_DOWN  &none              &m_ljmp_down  &none          &none  &none
-                                     &mo 6              &m_ljmp_down      &mkp LCLK         &mkp RCLK       &mkp MCLK          &none
+           &none  &mmv MOVE_X(-500)  &mmv MOVE_Y(-500)  &mmv MOVE_X(500)  &msc SCRL_UP      &msc SCRL_UP    &mmv MOVE_X(-300)       &mmv MOVE_Y(-300)    &mmv MOVE_X(300)  &none
+&mkp LCLK  &none  &mkp RCLK          &mmv MOVE_Y(500)   &mkp MCLK         &msc SCRL_DOWN    &msc SCRL_DOWN  &none              &mmv MOVE_Y(300)  &none          &none  &none
+                                     &mo 6              &m_ljmp_down      &mkp LCLK         &mkp RCLK       &mkp MCLK          &mkp LCLK
             >;
         };
 
