@@ -678,7 +678,7 @@
            &none  &none             &none             &none            &none        &none  &m_ljmp_left       &m_ljmp_up  &m_ljmp_right  &none
            &none  &mmv MOVE_X(-40)  &mmv MOVE_Y(-40)  &mmv MOVE_X(40)  &none        &none  &m_ljmp_left       &m_ljmp_up  &m_ljmp_right  &none
 &mkp LCLK  &none  &mkp RCLK         &mmv MOVE_Y(40)   &mkp MCLK        &none        &none  &none m_ljmp_down  &none       &none          &none  &none
-                                    &none             &none            &mkp LCLK    &none  &mkp MCLK
+                                    &none             &none            &mkp LCLK    &none  &mkp MCLK          &none
             >;
         };
 
