@@ -574,9 +574,9 @@
             wait-ms = <80>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_Y(-15000)>,
+                <&mmv MOVE_Y(-16000)>,
                 <&macro_release>,
-                <&mmv MOVE_Y(-15000)>;
+                <&mmv MOVE_Y(-16000)>;
         };
 
         m_ljmp_down: m_ljmp_down {
@@ -586,9 +586,9 @@
             wait-ms = <80>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_Y(15000)>,
+                <&mmv MOVE_Y(16000)>,
                 <&macro_release>,
-                <&mmv MOVE_Y(15000)>;
+                <&mmv MOVE_Y(16000)>;
         };
 
         m_ljmp_right: m_ljmp_right {
@@ -598,9 +598,9 @@
             wait-ms = <80>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_X(28000)>,
+                <&mmv MOVE_X(29000)>,
                 <&macro_release>,
-                <&mmv MOVE_X(28000)>;
+                <&mmv MOVE_X(29000)>;
         };
 
         m_ljmp_left: m_ljmp_left {
@@ -610,9 +610,9 @@
             wait-ms = <80>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_X(-28000)>,
+                <&mmv MOVE_X(-29000)>,
                 <&macro_release>,
-                <&mmv MOVE_X(-28000)>;
+                <&mmv MOVE_X(-29000)>;
         };
     };
 
@@ -667,8 +667,8 @@
         Mouse {
             bindings = <
            &none  &m_ljmp_left       &m_ljmp_up         &m_ljmp_right     &none             &none           &m_ljmp_left       &m_ljmp_up         &m_ljmp_right     &none
-           &none  &mmv MOVE_X(-500)  &mmv MOVE_Y(-500)  &mmv MOVE_X(500)  &msc SCRL_UP      &msc SCRL_UP    &mmv MOVE_X(-50)   &mmv MOVE_Y(-50)   &mmv MOVE_X(50)   &none
-&mkp LCLK  &none  &mkp RCLK          &mmv MOVE_Y(500)   &mkp MCLK         &msc SCRL_DOWN    &msc SCRL_DOWN  &mkp MCLK          &mmv MOVE_Y(50)    &mkp RCLK         &none  &mkp LCLK
+           &none  &mmv MOVE_X(-500)  &mmv MOVE_Y(-500)  &mmv MOVE_X(500)  &msc SCRL_UP      &msc SCRL_UP    &mmv MOVE_X(-500)   &mmv MOVE_Y(-500)   &mmv MOVE_X(500)   &none
+&mkp LCLK  &none  &mkp RCLK          &mmv MOVE_Y(500)   &mkp MCLK         &msc SCRL_DOWN    &msc SCRL_DOWN  &mkp MCLK          &mmv MOVE_Y(500)    &mkp RCLK         &none  &mkp LCLK
                                      &mo 6          &m_ljmp_down      &mkp LCLK         &mkp LCLK       &m_ljmp_down       &mo 6
             >;
         };
@@ -676,8 +676,8 @@
         Mouse2 {
             bindings = <
            &none  &m_ljmp_left       &m_ljmp_up         &m_ljmp_right     &none             &none           &m_ljmp_left       &m_ljmp_up         &m_ljmp_right     &none
-           &none  &mmv MOVE_X(-50)  &mmv MOVE_Y(-50)  &mmv MOVE_X(50)  &msc SCRL_UP      &msc SCRL_UP    &mmv MOVE_X(-500)   &mmv MOVE_Y(-500)   &mmv MOVE_X(500)   &none
-&mkp LCLK  &none  &mkp RCLK          &mmv MOVE_Y(50)   &mkp MCLK         &msc SCRL_DOWN    &msc SCRL_DOWN  &mkp MCLK          &mmv MOVE_Y(500)    &mkp RCLK         &none  &mkp LCLK
+           &none  &mmv MOVE_X(-50)  &mmv MOVE_Y(-50)  &mmv MOVE_X(50)  &msc SCRL_UP      &msc SCRL_UP    &mmv MOVE_X(-50)   &mmv MOVE_Y(-50)   &mmv MOVE_X(50)   &none
+&mkp LCLK  &none  &mkp RCLK          &mmv MOVE_Y(50)   &mkp MCLK         &msc SCRL_DOWN    &msc SCRL_DOWN  &mkp MCLK          &mmv MOVE_Y(50)    &mkp RCLK         &none  &mkp LCLK
                                      &mkp MCLK          &m_ljmp_down      &mkp LCLK         &mkp LCLK       &m_ljmp_down       &mkp MCLK
             >;
         };
