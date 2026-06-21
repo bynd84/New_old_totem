@@ -6,8 +6,8 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 200    // default: 10
 
 &mmv {
-    time-to-max-speed-ms = <40>;
-    acceleration-exponent = <2>;
+    time-to-max-speed-ms = <0>;
+    acceleration-exponent = <0>;
 };
 
 &mt {
@@ -23,13 +23,13 @@
         require-prior-idle-ms = <0>;
 
         layers_selector_L {
-            bindings = <&sl 7>;
+            bindings = <&sl 6>;
             key-positions = <22 24>;
             layers = <1 0 2 4 3 5>;
         };
 
         layers_selector_R {
-            bindings = <&sl 7>;
+            bindings = <&sl 6>;
             key-positions = <27 29>;
             layers = <1 0 2 4 3 5>;
         };
@@ -574,9 +574,9 @@
             wait-ms = <40>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_Y(-30000)>,
+                <&mmv MOVE_Y(-12000)>,
                 <&macro_release>,
-                <&mmv MOVE_Y(-30000)>;
+                <&mmv MOVE_Y(-12000)>;
         };
 
         m_ljmp_down: m_ljmp_down {
@@ -586,9 +586,9 @@
             wait-ms = <40>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_Y(30000)>,
+                <&mmv MOVE_Y(12000)>,
                 <&macro_release>,
-                <&mmv MOVE_Y(30000)>;
+                <&mmv MOVE_Y(12000)>;
         };
 
         m_ljmp_right: m_ljmp_right {
@@ -598,9 +598,9 @@
             wait-ms = <40>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_X(30000)>,
+                <&mmv MOVE_X(12000)>,
                 <&macro_release>,
-                <&mmv MOVE_X(30000)>;
+                <&mmv MOVE_X(12000)>;
         };
 
         m_ljmp_left: m_ljmp_left {
@@ -610,10 +610,11 @@
             wait-ms = <40>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_X(-30000)>,
+                <&mmv MOVE_X(-12000)>,
                 <&macro_release>,
-                <&mmv MOVE_X(-30000)>;
+                <&mmv MOVE_X(-12000)>;
         };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -665,27 +666,18 @@
 
         Mouse {
             bindings = <
-           &none  &m_ljmp_left       &m_ljmp_up         &m_ljmp_right     &none             &none           &m_ljmp_left       &m_ljmp_up         &m_ljmp_right     &none
-           &none  &mmv MOVE_X(-500)  &mmv MOVE_Y(-500)  &mmv MOVE_X(500)  &msc SCRL_UP      &msc SCRL_UP    &mmv MOVE_X(-300)  &mmv MOVE_Y(-300)  &mmv MOVE_X(300)  &none
-&mkp LCLK  &none  &mkp RCLK          &mmv MOVE_Y(500)   &mkp MCLK         &msc SCRL_DOWN    &msc SCRL_DOWN  &mkp MCLK          &mmv MOVE_Y(300)   &mkp RCLK         &none  &mkp LCLK
-                                     &mo 6              &m_ljmp_down      &mkp LCLK         &mkp LCLK       &m_ljmp_down       &mkp MCLK
-            >;
-        };
-
-        Mouse2 {
-            bindings = <
-           &none  &none             &none             &none            &none        &none  &none  &none  &none  &none
-           &none  &mmv MOVE_X(-40)  &mmv MOVE_Y(-40)  &mmv MOVE_X(40)  &none        &none  &none  &none  &none  &none
-&mkp LCLK  &none  &mkp RCLK         &mmv MOVE_Y(40)   &mkp MCLK        &none        &none  &none         &none       &none          &none  &none
-                                    &none             &none            &mkp LCLK    &none  &mkp MCLK     &none
+       &m_ljmp_left  &mmv MOVE_X(-50)   &mmv MOVE_Y(-50)   &mmv MOVE_X(50)   &m_ljmp_right       &none         &m_ljmp_left    &m_ljmp_up    &m_ljmp_right  &none
+       &none               &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &msc SCRL_UP  &none         &msc SCRL_DOWN  &msc SCRL_UP  &mkp RCLK      &none
+&none  &none               &mkp RCLK          &mkp MCLK          &mkp LCLK         &msc SCRL_DOWN &none         &none           &none         &none          &none  &none
+                                              &none              &mmv MOVE_Y(600)  &mmv MOVE_Y(50) &m_ljmp_down  &mkp LCLK       &mkp MCLK
             >;
         };
 
         layers {
             bindings = <
-       &bt BT_CLR_ALL  &none  &none  &none  &none    &none  &none  &none  &none  &bt BT_CLR_ALL
-       &none           &to 0  &to 1  &to 2  &none    &none  &to 2  &to 1  &to 0  &none
-&none  &none           &to 3  &to 4  &to 5  &none    &none  &to 5  &to 4  &to 3  &none           &none
+                &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
+                &none  &to 0  &to 1  &to 2  &none    &none  &to 2  &to 1  &to 0  &none
+&bt BT_CLR_ALL  &none  &to 3  &to 4  &to 5  &none    &none  &to 5  &to 4  &to 3  &none  &bt BT_CLR_ALL
                               &none  &none  &none    &none  &none  &none
             >;
         };
