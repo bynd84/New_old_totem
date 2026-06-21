@@ -6,7 +6,7 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 200    // default: 10
 
 &mmv {
-    time-to-max-speed-ms = <35>;
+    time-to-max-speed-ms = <40>;
     acceleration-exponent = <2>;
 };
 
@@ -574,9 +574,9 @@
             wait-ms = <40>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_Y(-20000)>,
+                <&mmv MOVE_Y(-30000)>,
                 <&macro_release>,
-                <&mmv MOVE_Y(-20000)>;
+                <&mmv MOVE_Y(-30000)>;
         };
 
         m_ljmp_down: m_ljmp_down {
@@ -586,9 +586,9 @@
             wait-ms = <40>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_Y(20000)>,
+                <&mmv MOVE_Y(30000)>,
                 <&macro_release>,
-                <&mmv MOVE_Y(20000)>;
+                <&mmv MOVE_Y(30000)>;
         };
 
         m_ljmp_right: m_ljmp_right {
@@ -598,9 +598,9 @@
             wait-ms = <40>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_X(30000)>,
+                <&mmv MOVE_X(40000)>,
                 <&macro_release>,
-                <&mmv MOVE_X(30000)>;
+                <&mmv MOVE_X(40000)>;
         };
 
         m_ljmp_left: m_ljmp_left {
@@ -610,9 +610,9 @@
             wait-ms = <40>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_X(-30000)>,
+                <&mmv MOVE_X(-40000)>,
                 <&macro_release>,
-                <&mmv MOVE_X(-30000)>;
+                <&mmv MOVE_X(-40000)>;
         };
     };
 
