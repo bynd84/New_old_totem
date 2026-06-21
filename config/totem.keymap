@@ -23,13 +23,13 @@
         require-prior-idle-ms = <0>;
 
         layers_selector_L {
-            bindings = <&sl 6>;
+            bindings = <&sl 7>;
             key-positions = <22 24>;
             layers = <1 0 2 4 3 5>;
         };
 
         layers_selector_R {
-            bindings = <&sl 6>;
+            bindings = <&sl 7>;
             key-positions = <27 29>;
             layers = <1 0 2 4 3 5>;
         };
