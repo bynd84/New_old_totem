@@ -598,10 +598,10 @@
             wait-ms = <40>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_X(30000)>,<&mmv MOVE_X(30000)>,<&mmv MOVE_X(10000)>,
-                <&macro_release>;
+                <&mmv MOVE_X(30000)>,
+                <&macro_release>,
+                <&mmv MOVE_X(30000)>;
         };
-    };
 
         m_ljmp_left: m_ljmp_left {
             compatible = "zmk,behavior-macro";
@@ -610,10 +610,10 @@
             wait-ms = <40>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
-                <&mmv MOVE_X(-30000)>,<&mmv MOVE_X(-30000)>,<&mmv MOVE_X(-10000)>,
-                <&macro_release>;
+                <&mmv MOVE_X(-30000)>,
+                <&macro_release>,
+                <&mmv MOVE_X(-30000)>;
         };
-    };
 
     keymap {
         compatible = "zmk,keymap";
