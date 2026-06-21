@@ -23,13 +23,13 @@
         require-prior-idle-ms = <0>;
 
         layers_selector_L {
-            bindings = <&sl 6>;
+            bindings = <&sl 7>;
             key-positions = <22 24>;
             layers = <1 0 2 4 3 5>;
         };
 
         layers_selector_R {
-            bindings = <&sl 6>;
+            bindings = <&sl 7>;
             key-positions = <27 29>;
             layers = <1 0 2 4 3 5>;
         };
@@ -666,13 +666,21 @@
 
         Mouse {
             bindings = <
-           &none  &m_ljmp_left       &m_ljmp_up         &m_ljmp_right     &none             &none           &mmv MOVE_X(-50)  &mmv MOVE_Y(-50)  &mmv MOVE_X(50)     &none
-           &none  &mmv MOVE_X(-500)  &mmv MOVE_Y(-500)  &mmv MOVE_X(500)  &msc SCRL_UP      &msc SCRL_UP    &m_ljmp_left       &m_ljmp_up         &m_ljmp_right   &none
-&mkp LCLK  &none  &mkp RCLK          &mmv MOVE_Y(500)   &mkp MCLK         &msc SCRL_DOWN    &msc SCRL_DOWN  &mkp MCLK          &m_ljmp_down   &mkp RCLK         &none  &mkp LCLK
-                                     &none              &m_ljmp_down      &mkp LCLK         &mkp LCLK       &mmv MOVE_Y(50)       &mkp MCLK
+           &none  &m_ljmp_left       &m_ljmp_up         &m_ljmp_right     &none             &none           &m_ljmp_left       &m_ljmp_up         &m_ljmp_right     &none
+           &none  &mmv MOVE_X(-500)  &mmv MOVE_Y(-500)  &mmv MOVE_X(500)  &msc SCRL_UP      &msc SCRL_UP    &mmv MOVE_X(-50)   &mmv MOVE_Y(-50)   &mmv MOVE_X(50)   &none
+&mkp LCLK  &none  &mkp RCLK          &mmv MOVE_Y(500)   &mkp MCLK         &msc SCRL_DOWN    &msc SCRL_DOWN  &mkp MCLK          &mmv MOVE_Y(50)    &mkp RCLK         &none  &mkp LCLK
+                                     &mo 6          &m_ljmp_down      &mkp LCLK         &mkp LCLK       &m_ljmp_down       &mo 6
             >;
         };
 
+        Mouse2 {
+            bindings = <
+           &none  &m_ljmp_left       &m_ljmp_up         &m_ljmp_right     &none             &none           &m_ljmp_left       &m_ljmp_up         &m_ljmp_right     &none
+           &none  &mmv MOVE_X(-50)  &mmv MOVE_Y(-50)  &mmv MOVE_X(50)  &msc SCRL_UP      &msc SCRL_UP    &mmv MOVE_X(-500)   &mmv MOVE_Y(-500)   &mmv MOVE_X(500)   &none
+&mkp LCLK  &none  &mkp RCLK          &mmv MOVE_Y(50)   &mkp MCLK         &msc SCRL_DOWN    &msc SCRL_DOWN  &mkp MCLK          &mmv MOVE_Y(500)    &mkp RCLK         &none  &mkp LCLK
+                                     &mkp MCLK          &m_ljmp_down      &mkp LCLK         &mkp LCLK       &m_ljmp_down       &mkp MCLK
+            >;
+        };
 
         layers {
             bindings = <
