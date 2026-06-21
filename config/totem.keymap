@@ -570,7 +570,7 @@
         m_ljmp_up: m_ljmp_up {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            tap-ms = <60>;
+            tap-ms = <70>;
             wait-ms = <80>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
@@ -582,7 +582,7 @@
         m_ljmp_down: m_ljmp_down {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            tap-ms = <60>;
+            tap-ms = <70>;
             wait-ms = <80>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
@@ -594,7 +594,7 @@
         m_ljmp_right: m_ljmp_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            tap-ms = <60>;
+            tap-ms = <70>;
             wait-ms = <80>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
@@ -606,7 +606,7 @@
         m_ljmp_left: m_ljmp_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            tap-ms = <60>;
+            tap-ms = <70>;
             wait-ms = <80>; // Пауза между шагами при удержании кнопки
             bindings =
                 <&macro_press>,
