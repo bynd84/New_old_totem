@@ -74,25 +74,25 @@
 
         qwerty_s7 {
             bindings = <&kp LS(N7)>;
-            key-positions = <36 6>;
+            key-positions = <36 5>;
             layers = <1>;
         };
 
         qwerty_s8 {
             bindings = <&kp LS(NUMBER_8)>;
-            key-positions = <36 7>;
+            key-positions = <36 6>;
             layers = <1>;
         };
 
         qwerty_s9 {
             bindings = <&kp LS(NUMBER_9)>;
-            key-positions = <36 8>;
+            key-positions = <36 7>;
             layers = <1>;
         };
 
         qwerty_s0 {
             bindings = <&kp LS(NUMBER_0)>;
-            key-positions = <36 5>;
+            key-positions = <36 8>;
             layers = <1>;
         };
 
@@ -116,85 +116,85 @@
 
         qwerty_1 {
             bindings = <&kp NUMBER_1>;
-            key-positions = <22 11>;
+            key-positions = <22 33>;
             layers = <1>;
         };
 
         qwerty_2 {
             bindings = <&kp NUMBER_2>;
-            key-positions = <1 11>;
+            key-positions = <23 33>;
             layers = <1>;
         };
 
         qwerty_3 {
             bindings = <&kp NUMBER_3>;
-            key-positions = <2 12>;
+            key-positions = <24 33>;
             layers = <1>;
         };
 
         qwerty_4 {
             bindings = <&kp NUMBER_4>;
-            key-positions = <3 13>;
+            key-positions = <11 33>;
             layers = <1>;
         };
 
         qwerty_5 {
             bindings = <&kp NUMBER_5>;
-            key-positions = <4 14>;
+            key-positions = <12 33>;
             layers = <1>;
         };
 
         qwerty_6 {
             bindings = <&kp NUMBER_6>;
-            key-positions = <5 15>;
+            key-positions = <33 13>;
             layers = <1>;
         };
 
         qwerty_7 {
             bindings = <&kp NUMBER_7>;
-            key-positions = <6 16>;
+            key-positions = <33 1>;
             layers = <1>;
         };
 
         qwerty_8 {
             bindings = <&kp NUMBER_8>;
-            key-positions = <7 17>;
+            key-positions = <33 2>;
             layers = <1>;
         };
 
         qwerty_9 {
             bindings = <&kp NUMBER_9>;
-            key-positions = <8 18>;
+            key-positions = <33 3>;
             layers = <1>;
         };
 
         qwerty_0 {
             bindings = <&kp NUMBER_0>;
-            key-positions = <29 18>;
+            key-positions = <33 4>;
             layers = <1>;
         };
 
         qwerty_minus {
             bindings = <&kp MINUS>;
-            key-positions = <6 7>;
+            key-positions = <33 14>;
             layers = <1>;
         };
 
         qwerty_equ {
             bindings = <&kp EQUAL>;
-            key-positions = <7 8>;
+            key-positions = <33 25>;
             layers = <1>;
         };
 
         qwerty_br_L {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <27 16>;
+            key-positions = <28 17>;
             layers = <1>;
         };
 
         qwerty_br_R {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <28 17>;
+            key-positions = <18 29>;
             layers = <1>;
         };
 
@@ -502,6 +502,12 @@
             layers = <2>;
         };
 
+        qwerty_esc {
+            bindings = <&kp ESC>;
+            key-positions = <27 16>;
+            layers = <1>;
+        };
+
         //other macroses------------------------------------------------
     };
 
@@ -633,7 +639,7 @@
                     &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y      &kp U      &kp I      &kp O    &kp P
                     &kp A  &kp S  &kp D  &kp F  &kp G        &kp H      &kp J      &kp K      &kp L    &kp SEMI
 &mt LEFT_ALT GRAVE  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
-                                  &mo 3  &mo 2  &kp LSHFT    &kp SPACE  &kp LCTRL  &mo 4
+                                  &mo 3  &mo 2  &kp LSHFT    &kp SPACE  &kp LCTRL  &kp BSPC
             >;
         };
 
