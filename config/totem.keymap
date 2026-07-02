@@ -504,7 +504,13 @@
 
         qwerty_esc {
             bindings = <&kp ESC>;
-            key-positions = <27 16>;
+            key-positions = <1 11>;
+            layers = <1>;
+        };
+
+        qwerty_ent {
+            bindings = <&kp ENTER>;
+            key-positions = <8 18>;
             layers = <1>;
         };
 
