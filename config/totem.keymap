@@ -74,13 +74,13 @@
 
         qwerty_s7 {
             bindings = <&kp LS(N7)>;
-            key-positions = <36 5>;
+            key-positions = <36 6>;
             layers = <1>;
         };
 
         qwerty_s8 {
             bindings = <&kp LS(NUMBER_8)>;
-            key-positions = <36 6>;
+            key-positions = <36 5>;
             layers = <1>;
         };
 
