@@ -198,6 +198,30 @@
             layers = <1>;
         };
 
+        qwerty_quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <16 27>;
+            layers = <1>;
+        };
+
+        qwerty_dblquote {
+            bindings = <&kp LS(SINGLE_QUOTE)>;
+            key-positions = <5 15>;
+            layers = <1>;
+        };
+
+        qwerty_esc {
+            bindings = <&kp ESC>;
+            key-positions = <1 11>;
+            layers = <1>;
+        };
+
+        qwerty_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <8 18>;
+            layers = <1>;
+        };
+
         qwerty_rus_to_wsad {
             bindings = <&mqwerty_to_wsad>;
             key-positions = <1 3>;
@@ -500,30 +524,6 @@
             bindings = <&kp INS>;
             key-positions = <14 25>;
             layers = <2>;
-        };
-
-        qwerty_esc {
-            bindings = <&kp ESC>;
-            key-positions = <1 11>;
-            layers = <1>;
-        };
-
-        qwerty_quote {
-            bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <16 27>;
-            layers = <1>;
-        };
-
-        qwerty_enter {
-            bindings = <&kp ENTER>;
-            key-positions = <8 18>;
-            layers = <1>;
-        };
-
-        qwerty_dblquote {
-            bindings = <&kp LS(SINGLE_QUOTE)>;
-            key-positions = <5 15>;
-            layers = <1>;
         };
 
         //other macroses------------------------------------------------
