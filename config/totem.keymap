@@ -504,13 +504,19 @@
 
         qwerty_esc {
             bindings = <&kp ESC>;
-            key-positions = <1 11>;
+            key-positions = <8 18>;
             layers = <1>;
         };
 
-        qwerty_ent {
-            bindings = <&kp ENTER>;
-            key-positions = <8 18>;
+        qwerty_quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <5 15>;
+            layers = <1>;
+        };
+
+        qwerty_grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <1 11>;
             layers = <1>;
         };
 
@@ -642,10 +648,10 @@
 
         qwerty {
             bindings = <
-                    &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y      &kp U      &kp I      &kp O    &kp P
-                    &kp A  &kp S  &kp D  &kp F  &kp G        &kp H      &kp J      &kp K      &kp L    &kp SEMI
-&mt LEFT_ALT GRAVE  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_ALT SQT
-                                  &mo 3  &mo 2  &kp LSHFT    &kp SPACE  &kp LCTRL  &kp BSPC
+              &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y      &kp U      &kp I          &kp O    &kp P
+              &kp A  &kp S  &kp D  &kp F  &kp G        &kp H      &kp J      &kp K          &kp L    &kp SEMI
+&kp LEFT_ALT  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N      &kp M      &kp COMMA      &kp DOT  &kp FSLH  &kp ENTER
+                            &mo 3  &mo 2  &kp LSHFT    &kp SPACE  &kp LCTRL  &kp RIGHT_ALT
             >;
         };
 
